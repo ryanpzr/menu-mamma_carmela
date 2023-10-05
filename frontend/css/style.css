@@ -113,9 +113,18 @@
         pointer-events: all;
     }
 
-    .hero {
+    .firstPage {
 
         height: calc(100vh - 80px);
+        background-color: #FFF2D6;
+        display: flex;
+        border: 1px solid black;
+
+    }
+
+    .otherPages {
+
+        height: 100vh;
         background-color: #FFF2D6;
         display: flex;
         border: 1px solid black;
@@ -126,7 +135,7 @@
 
         width: 30%;
         height: auto;
-        background-image: url('/frontend/img/carne\ exec.png');
+        background-image: url('/frontend/img/image-01.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 35%;
@@ -134,6 +143,120 @@
     }
 
     .main-right {
+
+        width: 70%;
+        height: auto;
+        border: 1px solid red;
+
+    }
+
+    .main02-left {
+
+        width: 30%;
+        height: auto;
+        background-image: url('/frontend/img/image-02.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+
+    }
+
+    .main02-right {
+
+        width: 70%;
+        height: auto;
+        border: 1px solid red;
+
+    }
+
+    .main03-left {
+
+        width: 30%;
+        height: auto;
+        background-image: url('/frontend/img/image-03.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 30%;
+
+    }
+
+    .main03-right {
+
+        width: 70%;
+        height: auto;
+        border: 1px solid red;
+
+    }
+
+    .main04-left {
+
+        width: 30%;
+        height: auto;
+        background-image: url('/frontend/img/image-04.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+
+    }
+
+    .main04-right {
+
+        width: 70%;
+        height: auto;
+        border: 1px solid red;
+
+    }
+
+    .main05-left {
+
+        width: 30%;
+        height: auto;
+        background-image: url('/frontend/img/image-05.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 55%;
+
+    }
+
+    .main05-right {
+
+        width: 70%;
+        height: auto;
+        border: 1px solid red;
+
+    }
+
+    .main06-left {
+
+        width: 30%;
+        height: auto;
+        background-image: url('/frontend/img/image-06.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 45%;
+
+    }
+
+    .main06-right {
+
+        width: 70%;
+        height: auto;
+        border: 1px solid red;
+
+    }
+
+    .main07-left {
+
+        width: 30%;
+        height: auto;
+        background-image: url('/frontend/img/image-07.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 30%;
+
+    }
+
+    .main07-right {
 
         width: 70%;
         height: auto;
