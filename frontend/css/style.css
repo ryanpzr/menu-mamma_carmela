@@ -108,19 +108,37 @@
 
     }
 
+    .nav.active .list {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
     .hero {
 
         height: calc(100vh - 80px);
         background-color: #FFF2D6;
+        display: flex;
         border: 1px solid black;
 
     }
 
+    .main-left {
 
+        width: 30%;
+        height: auto;
+        background-image: url('/frontend/img/carne\ exec.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 35%;
 
-    .nav.active .list {
-        clip-path: circle(1500px at 90% -15%);
-        pointer-events: all;
+    }
+
+    .main-right {
+
+        width: 70%;
+        height: auto;
+        border: 1px solid red;
+
     }
 
 }
