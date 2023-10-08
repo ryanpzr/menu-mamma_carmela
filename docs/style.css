@@ -95,7 +95,7 @@
     .nav-center {
 
         width: 40vw;
-        background-image: url('../img/LogoMammaCarmela.png');
+        background-image: url('img/LogoMammaCarmela.png');
         background-size: 62%;
         background-repeat: no-repeat;
         background-position: center;
@@ -201,7 +201,7 @@
 
         width: 30%;
         height: 100vh;
-        background-image: url('../img/image-01.png');
+        background-image: url('img/image-01.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 35%;
@@ -213,7 +213,7 @@
 
         width: 30%;
         height: 100vh;
-        background-image: url('../img/image-02.png');
+        background-image: url('img/image-02.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
@@ -225,7 +225,7 @@
 
         width: 30%;
         height: 100vh;
-        background-image: url('../img/image-03.png');
+        background-image: url('img/image-03.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 30%;
@@ -237,7 +237,7 @@
 
         width: 30%;
         height: 100vh;
-        background-image: url('../img/image-04.png');
+        background-image: url('img/image-04.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
@@ -249,7 +249,7 @@
 
         width: 30%;
         height: 100vh;
-        background-image: url('../img/image-05.png');
+        background-image: url('img/image-05.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 55%;
@@ -261,7 +261,7 @@
 
         width: 30%;
         height: 100vh;
-        background-image: url('../img/image-07.png');
+        background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 30%;
