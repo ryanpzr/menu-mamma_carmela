@@ -76,7 +76,7 @@
 
         background: #FFF2D6;
         display: flex;
-        width: 100%;
+        width: 100vw;
         flex-flow: row wrap;
         height: 12vh;
         justify-content: center;
@@ -1067,7 +1067,7 @@
 
         background: #FFF2D6;
         display: flex;
-        width: 100%;
+        width: 100vw;
         flex-flow: row wrap;
         height: 18vh;
         justify-content: center;
@@ -1078,51 +1078,27 @@
 
     .nav-left {
 
-        width: 30vw;
+        width: 20vw;
 
     }
 
     .nav-center {
 
-        width: 40vw;
+        width: 60vw;
         text-align: center;
 
     }
 
     .nav-right {
 
-        width: 30vw;
+        width: 20vw;
         z-index: 1;
 
     }
 
     .logo img {
-        margin-top: 2%;
-        width: 19vh;
-
-    }
-
-    .hamburger {
-
-        display: block;
-        margin-left: 60%;
         margin-top: 0%;
-        border: none;
-        background: none;
-        border-top: 2px solid black;
-        cursor: pointer;
-
-    }
-
-    .hamburger::before,
-    .hamburger::after {
-
-        content: " ";
-        display: block;
-        width: 25px;
-        height: 2px;
-        background: black;
-        margin-top: 5px;
+        width: 19vh;
 
     }
 
