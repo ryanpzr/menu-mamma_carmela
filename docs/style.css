@@ -491,7 +491,7 @@
     }
 
     .list a {
-        font-size: 20px;
+        font-size: 16px;
         text-decoration: none;
         color: #333;
         background-color: #FF9100;
@@ -505,7 +505,7 @@
     }
 
     .list a:hover {
-        background-color: #FFD600;
+        background-color: #161615;
         color: #000;
     }
 
@@ -525,7 +525,7 @@
 
     .Page02 {
 
-        height: 95vh;
+        height: 94vh;
         background-color: #FFF2D6;
         display: flex;
 
