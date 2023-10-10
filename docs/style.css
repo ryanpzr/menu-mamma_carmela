@@ -1126,6 +1126,14 @@
 
     }
 
+    .Page05 {
+
+        height: 90vh;
+        background-color: #FFF2D6;
+        display: flex;
+
+    }
+
     h2 {
 
         margin-top: 2em;
