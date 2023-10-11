@@ -374,7 +374,7 @@
 
         margin-top: 1.5em;
         margin-left: 4%;
-        font-size: 1.3vh;
+        font-size: 1.5vh;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -395,7 +395,7 @@
     P {
 
         margin-top: 2%;
-        font-size: 0.8vh;
+        font-size: 1vh;
         margin-left: 4%;
         font-family: 'Livvic', sans-serif;
         text-align: left;
@@ -408,7 +408,7 @@
         display: flex;
         width: 100vw;
         flex-flow: row wrap;
-        height: 100px;
+        height: 12vh;
         justify-content: center;
         align-items: center;
         border: 1px solid black;
