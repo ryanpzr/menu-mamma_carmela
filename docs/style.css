@@ -408,7 +408,7 @@
         display: flex;
         width: 100vw;
         flex-flow: row wrap;
-        height: 12vh;
+        height: 100px;
         justify-content: center;
         align-items: center;
         border: 1px solid black;
