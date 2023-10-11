@@ -490,8 +490,8 @@
 
     }
 
-    .list a {
-        font-size: 20px;
+    .list .a {
+        font-size: 15px;
         text-decoration: none;
         color: #333;
         background-color: #FF9100;
@@ -501,14 +501,8 @@
         width: 200px;
         text-align: center;
         display: block;
-        margin: 0% auto;
+        margin: 1% auto;
     }
-
-    .list a:hover {
-        background-color: #FFD600;
-        color: #000;
-    }
-
 
     .header.active .list {
         clip-path: circle(1500px at 90% -15%);
