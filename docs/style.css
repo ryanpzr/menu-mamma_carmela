@@ -468,6 +468,7 @@
     .list {
         position: fixed;
         display: flex;
+        padding-top: 10vh;
         top: 0;
         left: 0;
         width: 100vw;
@@ -486,11 +487,11 @@
 
     .list img {
 
-        width: 58%;
+        width: 98%;
 
     }
 
-    .list .a {
+    .a {
         font-size: 15px;
         text-decoration: none;
         color: #333;
