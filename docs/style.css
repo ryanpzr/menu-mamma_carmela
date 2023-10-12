@@ -512,7 +512,7 @@
 
     .Page01 {
 
-        height: 88vh;
+        height: 95vh;
         background-color: #FFF2D6;
         display: flex;
 
@@ -520,7 +520,7 @@
 
     .Page02 {
 
-        height: 95vh;
+        height: 100vh;
         background-color: #FFF2D6;
         display: flex;
 
@@ -528,7 +528,7 @@
 
     .Page03 {
 
-        height: 93vh;
+        height: 94vh;
         background-color: #FFF2D6;
         display: flex;
 
@@ -544,7 +544,7 @@
 
     .Page05 {
 
-        height: 100vh;
+        height: 98vh;
         background-color: #FFF2D6;
         display: flex;
 
