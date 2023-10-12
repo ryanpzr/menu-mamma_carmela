@@ -24,7 +24,7 @@
         margin-top: 15%;
         margin-bottom: 2%;
         margin-left: 4%;
-        font-size: 1.5vh;
+        font-size: 1.2vh;
         color: #FF9100;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -33,7 +33,7 @@
     h3 {
         margin-top: 6%;
         margin-left: 4%;
-        font-size: 1.3vh;
+        font-size: 1.18vh;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -150,37 +150,37 @@
     }
 
     .Page01 {
-        height: 96vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page02 {
-        height: 98vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page03 {
-        height: 97vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page04 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page05 {
-        height: 97vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page06 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
@@ -297,7 +297,7 @@
     h3 {
         margin-top: 6%;
         margin-left: 4%;
-        font-size: 1.2vh;
+        font-size: 1.1vh;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -414,37 +414,37 @@
     }
 
     .Page01 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page02 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page03 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page04 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page05 {
-        height: 97vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page06 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
@@ -550,9 +550,9 @@
     }
 
     h3 {
-        margin-top: 6%;
+        margin-top: 2%;
         margin-left: 4%;
-        font-size: 1.3vh;
+        font-size: 1.2vh;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -576,13 +576,37 @@
     }
 
     .Page01 {
-        height: 98vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page02 {
-        height: 99vh;
+        height: auto;
+        background-color: #FFF2D6;
+        display: flex;
+    }
+
+    .Page03 {
+        height: auto;
+        background-color: #FFF2D6;
+        display: flex;
+    }
+
+    .Page04 {
+        height: auto;
+        background-color: #FFF2D6;
+        display: flex;
+    }
+
+    .Page05 {
+        height: auto;
+        background-color: #FFF2D6;
+        display: flex;
+    }
+
+    .Page06 {
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
@@ -635,39 +659,38 @@
     }
 
     .Page01 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page02 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page03 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page04 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page05 {
-        height: 97vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page06 {
-        height: 100vh;
+        height: auto;
         background-color: #FFF2D6;
         display: flex;
     }
-
 }
