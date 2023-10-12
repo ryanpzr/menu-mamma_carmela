@@ -333,8 +333,7 @@
     }
 }
 
-
-@media only screen and (min-width: 300px) and (max-height: 550px) {
+@media only screen and (min-width: 300px) {
     * {
 
         margin: 0;
@@ -351,8 +350,8 @@
 
     h1 {
 
-        margin-top: 2em;
-        font-size: 2.5vh;
+        margin-top: 14%;
+        font-size: 160%;
         text-align: center;
         color: #FF9100;
         text-decoration: underline;
@@ -361,10 +360,10 @@
 
     h2 {
 
-        margin-top: 2em;
-        margin-bottom: 1em;
+        margin-top: 8%;
+        margin-bottom: 5%;
         margin-left: 4%;
-        font-size: 1.5vh;
+        font-size: 95%;
         color: #FF9100;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -373,9 +372,9 @@
 
     h3 {
 
-        margin-top: 1.5em;
+        margin-top: 6.5%;
         margin-left: 4%;
-        font-size: 1.5vh;
+        font-size: 90%;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -384,9 +383,9 @@
 
     h4 {
 
-        margin-top: 1em;
+        margin-top: 3%;
         margin-left: 4%;
-        font-size: 1.3vh;
+        font-size: 70%;
         color: #964308;
         text-align: center;
         font-family: 'Livvic', sans-serif;
@@ -396,7 +395,7 @@
     P {
 
         margin-top: 2%;
-        font-size: 1vh;
+        font-size: 55%;
         margin-left: 4%;
         font-family: 'Livvic', sans-serif;
         text-align: left;
@@ -513,7 +512,7 @@
 
     .Page01 {
 
-        height: 100vh;
+        height: 94%;
         background-color: #FFF2D6;
         display: flex;
 
@@ -529,7 +528,7 @@
 
     .Page03 {
 
-        height: 100vh;
+        height: 93vh;
         background-color: #FFF2D6;
         display: flex;
 
@@ -537,7 +536,7 @@
 
     .Page04 {
 
-        height: 100vh;
+        height: 92vh;
         background-color: #FFF2D6;
         display: flex;
 
@@ -545,7 +544,7 @@
 
     .Page05 {
 
-        height: 100vh;
+        height: 95vh;
         background-color: #FFF2D6;
         display: flex;
 
@@ -570,7 +569,6 @@
     .main-left {
 
         width: 30%;
-        height: auto;
         background-image: url('img/image-01.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -582,7 +580,6 @@
     .main-right {
 
         width: 70%;
-        height: auto;
         border-right: 1px solid black;
 
     }
@@ -590,7 +587,6 @@
     .main02-left {
 
         width: 30%;
-        height: auto;
         background-image: url('img/image-02.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -602,7 +598,6 @@
     .main03-left {
 
         width: 30%;
-        height: auto;
         background-image: url('img/image-03.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -614,7 +609,6 @@
     .main04-left {
 
         width: 30%;
-        height: auto;
         background-image: url('img/image-04.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -626,7 +620,6 @@
     .main05-left {
 
         width: 30%;
-        height: auto;
         background-image: url('img/image-05.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -638,7 +631,6 @@
     .main06-left {
 
         width: 30%;
-        height: auto;
         background-image: url('img/image-06.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -650,333 +642,6 @@
     .main07-left {
 
         width: 30%;
-        height: auto;
-        background-image: url('img/image-07.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 28%;
-        border-left: 1px solid black;
-
-    }
-}
-
-@media only screen and (min-width: 300px) and (min-height:550px) {
-    * {
-
-        margin: 0;
-        padding: 0;
-
-    }
-
-    a {
-
-        font-family: sans-serif;
-        text-decoration: none;
-
-    }
-
-    h1 {
-
-        margin-top: 2em;
-        font-size: 3vh;
-        text-align: center;
-        color: #FF9100;
-        text-decoration: underline;
-
-    }
-
-    h2 {
-
-        margin-top: 2em;
-        margin-bottom: 1em;
-        margin-left: 4%;
-        font-size: 1.5vh;
-        color: #FF9100;
-        text-align: left;
-        font-family: 'Livvic', sans-serif;
-
-    }
-
-    h3 {
-
-        margin-top: 1.5em;
-        margin-left: 4%;
-        font-size: 1.6vh;
-        color: #964308;
-        text-align: left;
-        font-family: 'Livvic', sans-serif;
-
-    }
-
-    h4 {
-
-        margin-top: 1em;
-        margin-left: 4%;
-        font-size: 1.3vh;
-        color: #964308;
-        text-align: center;
-        font-family: 'Livvic', sans-serif;
-
-    }
-
-    P {
-
-        margin-top: 2%;
-        font-size: 1vh;
-        margin-left: 4%;
-        font-family: 'Livvic', sans-serif;
-        text-align: left;
-
-    }
-
-    .header {
-
-        background: #FFF2D6;
-        display: flex;
-        width: 100vw;
-        flex-flow: row wrap;
-        height: 12vh;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid black;
-
-    }
-
-    .nav-left {
-
-        width: 30vw;
-
-    }
-
-    .nav-center {
-
-        width: 40vw;
-        text-align: center;
-
-    }
-
-    .nav-right {
-
-        width: 30vw;
-        z-index: 1;
-
-    }
-
-    .logo img {
-        margin-top: 2%;
-        width: 12vh;
-
-    }
-
-    .hamburger {
-
-        display: block;
-        margin-left: 70%;
-        margin-top: 0%;
-        border: none;
-        background: none;
-        border-top: 3px solid black;
-        cursor: pointer;
-
-    }
-
-    .hamburger::before,
-    .hamburger::after {
-
-        content: " ";
-        display: block;
-        width: 30px;
-        height: 3px;
-        background: black;
-        margin-top: 5px;
-
-    }
-
-    .list {
-        position: fixed;
-        display: flex;
-        padding-top: 10vh;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: #FFF2D6;
-        clip-path: circle(100px at 90% -15%);
-        transition: 1s ease-out;
-        list-style: none;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        pointer-events: none;
-        border: 1px solid red;
-    }
-
-    .list img {
-
-        width: 98%;
-
-    }
-
-    .a {
-        font-size: 15px;
-        text-decoration: none;
-        color: #333;
-        background-color: #FF9100;
-        padding: 10px 20px;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-        width: 200px;
-        text-align: center;
-        display: block;
-        margin: 1% auto;
-    }
-
-    .header.active .list {
-        clip-path: circle(1500px at 90% -15%);
-        pointer-events: all;
-    }
-
-    .Page01 {
-
-        height: 100vh;
-        background-color: #FFF2D6;
-        display: flex;
-
-    }
-
-    .Page02 {
-
-        height: 100vh;
-        background-color: #FFF2D6;
-        display: flex;        
-
-    }
-
-    .Page03 {
-
-        height: 100vh;
-        background-color: #FFF2D6;
-        display: flex;
-
-    }
-
-    .Page04 {
-
-        height: 100vh;
-        background-color: #FFF2D6;
-        display: flex;
-
-    }
-
-    .Page05 {
-
-        height: 100vh;
-        background-color: #FFF2D6;
-        display: flex;
-
-    }
-
-    .Page06 {
-
-        height: 100vh;
-        background-color: #FFF2D6;
-        display: flex;
-
-    }
-
-    .Page07 {
-
-        height: 100vh;
-        background-color: #FFF2D6;
-        display: flex;
-
-    }
-
-    .main-left {
-
-        width: 30%;
-        height: auto;
-        background-image: url('img/image-01.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 35%;
-        border-left: 1px solid black;
-
-    }
-
-    .main-right {
-
-        width: 70%;
-        height: auto;
-        border-right: 1px solid black;
-
-    }
-
-    .main02-left {
-
-        width: 30%;
-        height: auto;
-        background-image: url('img/image-02.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50%;
-        border-left: 1px solid black;
-
-    }
-
-    .main03-left {
-
-        width: 30%;
-        height: auto;
-        background-image: url('img/image-03.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 30%;
-        border-left: 1px solid black;
-
-    }
-
-    .main04-left {
-
-        width: 30%;
-        height: auto;
-        background-image: url('img/image-04.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50%;
-        border-left: 1px solid black;
-
-    }
-
-    .main05-left {
-
-        width: 30%;
-        height: auto;
-        background-image: url('img/image-05.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 55%;
-        border-left: 1px solid black;
-
-    }
-
-    .main06-left {
-
-        width: 30%;
-        height: auto;
-        background-image: url('img/image-06.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 35%;
-        border-left: 1px solid black;
-
-    }
-
-    .main07-left {
-
-        width: 30%;
-        height: auto;
         background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
