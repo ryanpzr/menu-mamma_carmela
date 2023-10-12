@@ -14,7 +14,7 @@
 
     h1 {
         margin-top: 15%;
-        font-size: 6vw;
+        font-size: 2.5vh;
         text-align: center;
         color: #FF9100;
         text-decoration: underline;
@@ -24,7 +24,7 @@
         margin-top: 15%;
         margin-bottom: 2%;
         margin-left: 4%;
-        font-size: 4vw;
+        font-size: 1.5vh;
         color: #FF9100;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -33,7 +33,7 @@
     h3 {
         margin-top: 6%;
         margin-left: 4%;
-        font-size: 4vw;
+        font-size: 1.3vh;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -42,7 +42,7 @@
     h4 {
         margin-top: 1.5%;
         margin-left: 4%;
-        font-size: 2.8vw;
+        font-size: 1.2vh;
         color: #964308;
         text-align: center;
         font-family: 'Livvic', sans-serif;
@@ -50,7 +50,7 @@
 
     p {
         margin-top: 2%;
-        font-size: 2.5vw;
+        font-size: 0.95vh;
         margin-left: 4%;
         font-family: 'Livvic', sans-serif;
         text-align: left;
@@ -150,13 +150,13 @@
     }
 
     .Page01 {
-        height: 100vh;
+        height: 96vh;
         background-color: #FFF2D6;
         display: flex;
     }
 
     .Page02 {
-        height: 100vh;
+        height: 98vh;
         background-color: #FFF2D6;
         display: flex;
     }
@@ -278,7 +278,7 @@
 
     h1 {
         margin-top: 15%;
-        font-size: 6vw;
+        font-size: 2.5vh;
         text-align: center;
         color: #FF9100;
         text-decoration: underline;
@@ -288,7 +288,7 @@
         margin-top: 6%;
         margin-bottom: 2%;
         margin-left: 4%;
-        font-size: 3.5vw;
+        font-size: 1.4vh;
         color: #FF9100;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -297,7 +297,7 @@
     h3 {
         margin-top: 6%;
         margin-left: 4%;
-        font-size: 3.3vw;
+        font-size: 1.2vh;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -306,7 +306,7 @@
     h4 {
         margin-top: 1.5%;
         margin-left: 4%;
-        font-size: 2.4vw;
+        font-size: 1vh;
         color: #964308;
         text-align: center;
         font-family: 'Livvic', sans-serif;
@@ -314,7 +314,7 @@
 
     p {
         margin-top: 2%;
-        font-size: 2vw;
+        font-size: 1.15vh;
         margin-left: 4%;
         font-family: 'Livvic', sans-serif;
         text-align: left;
@@ -438,7 +438,7 @@
     }
 
     .Page05 {
-        height: 100vh;
+        height: 97vh;
         background-color: #FFF2D6;
         display: flex;
     }
@@ -533,7 +533,7 @@
 
     h1 {
         margin-top: 5%;
-        font-size: 6vw;
+        font-size: 3vh;
         text-align: center;
         color: #FF9100;
         text-decoration: underline;
@@ -543,7 +543,7 @@
         margin-top: 10%;
         margin-bottom: 2%;
         margin-left: 4%;
-        font-size: 2.8vw;
+        font-size: 1.3vh;
         color: #FF9100;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -552,7 +552,7 @@
     h3 {
         margin-top: 6%;
         margin-left: 4%;
-        font-size: 2.8vw;
+        font-size: 1.3vh;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -561,7 +561,7 @@
     h4 {
         margin-top: 1.5%;
         margin-left: 4%;
-        font-size: 2vw;
+        font-size: 1vh;
         color: #964308;
         text-align: center;
         font-family: 'Livvic', sans-serif;
@@ -569,7 +569,7 @@
 
     p {
         margin-top: 2%;
-        font-size: 1.8vw;
+        font-size: 0.9vh;
         margin-left: 4%;
         font-family: 'Livvic', sans-serif;
         text-align: left;
@@ -577,6 +577,12 @@
 
     .Page01 {
         height: 98vh;
+        background-color: #FFF2D6;
+        display: flex;
+    }
+
+    .Page02 {
+        height: 99vh;
         background-color: #FFF2D6;
         display: flex;
     }
