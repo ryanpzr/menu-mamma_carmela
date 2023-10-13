@@ -131,7 +131,7 @@
     }
 
     .a {
-        font-size: 1.5vw;
+        font-size: 5vh;
         text-decoration: none;
         color: #333;
         background-color: #FF9100;
@@ -145,7 +145,7 @@
     }
 
     .header.active .list {
-        clip-path: circle(150px at 90% -15%);
+        clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
     }
 
@@ -332,16 +332,16 @@
     }
 
     .nav-left {
-        width: 30vw;
+        width: 30%;
     }
 
     .nav-center {
-        width: 40vw;
+        width: 40%;
         text-align: center;
     }
 
     .nav-right {
-        width: 30vw;
+        width: 30%;
         z-index: 1;
     }
 
@@ -364,8 +364,8 @@
     .hamburger::after {
         content: " ";
         display: block;
-        width: 2.5vw;
-        height: 0.3vh;
+        width: 7vw;
+        height: 0.2vh;
         background: black;
         margin-top: 0.5vh;
     }
@@ -395,21 +395,21 @@
     }
 
     .a {
-        font-size: 1.5vw;
+        font-size: 1.8vh;
         text-decoration: none;
         color: #333;
         background-color: #FF9100;
         padding: 1vh 2vw;
         border-radius: 5px;
         transition: background-color 0.3s ease;
-        width: 20vw;
+        width: 50vw;
         text-align: center;
         display: block;
         margin: 1% auto;
     }
 
     .header.active .list {
-        clip-path: circle(150px at 90% -15%);
+        clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
     }
 
@@ -611,6 +611,26 @@
         display: flex;
     }
 
+    .hamburger {
+        display: block;
+        margin-left: 70%;
+        margin-top: 0%;
+        border: none;
+        background: none;
+        border-top: 3px solid black;
+        cursor: pointer;
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: " ";
+        display: block;
+        width: 30px;
+        height: 2px;
+        background: black;
+        margin-top: 0.5vh;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -693,4 +713,9 @@
         background-color: #FFF2D6;
         display: flex;
     }
+
+    .list img {
+        width: 60%;
+    }
+
 }
