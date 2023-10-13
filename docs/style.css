@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dancing+Script&family=Libre+Baskerville&family=Qwitcher+Grypen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
 
-@media only screen and (min-width: 320px) and (min-height: 875px) {
+@media only screen and (min-width: 320px){
     * {
         margin: 0;
         padding: 0;
@@ -123,7 +123,6 @@
         align-items: center;
         gap: 1vh;
         pointer-events: none;
-        border: 1px solid red;
     }
 
     .list img {
@@ -245,7 +244,7 @@
     .main06-left {
 
         width: 30%;
-        background-image: url('img/image-06.png');
+        background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 35%;
@@ -387,7 +386,6 @@
         align-items: center;
         gap: 1vh;
         pointer-events: none;
-        border: 1px solid red;
     }
 
     .list img {
@@ -509,7 +507,7 @@
     .main06-left {
 
         width: 30%;
-        background-image: url('img/image-06.png');
+        background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 35%;
