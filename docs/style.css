@@ -635,7 +635,36 @@
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .header {
+        background: #FFF2D6;
+        display: flex;
+        width: 100vw;
+        flex-flow: row wrap;
+        height: 12vh;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .nav-left {
+        width: 33vw;
+    }
+
+    .nav-center {
+        width: 40vw;
+        text-align: center;
+    }
+
+    .nav-right {
+        width: 20vw;
+        z-index: 1;
+    }
+
+    .logo img {
+        margin-top: 2%;
+        width: 12vh;
+    }
+
     .list {
         position: fixed;
         display: flex;
