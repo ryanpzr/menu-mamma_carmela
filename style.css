@@ -532,6 +532,24 @@
 
 @media only screen and (min-width: 425px) {
 
+    .nav-left {
+        width: 50vw;
+    }
+
+    .nav-left p {
+        font-size: 12px;
+    }
+
+    .nav-center {
+        width: 30vw;
+        text-align: center;
+    }
+
+    .nav-right {
+        width: 20vw;
+        z-index: 1;
+    }
+
     h1 {
         margin-top: 5%;
         font-size: 3vh;
@@ -635,34 +653,23 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .header {
-        background: #FFF2D6;
-        display: flex;
-        width: 100vw;
-        flex-flow: row wrap;
-        height: 12vh;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid black;
-    }
 
     .nav-left {
-        width: 33vw;
+        width: 52vw;
+    }
+
+    .nav-left p {
+        font-size: 20px;
     }
 
     .nav-center {
-        width: 40vw;
+        width: 28vw;
         text-align: center;
     }
 
     .nav-right {
         width: 20vw;
         z-index: 1;
-    }
-
-    .logo img {
-        margin-top: 2%;
-        width: 12vh;
     }
 
     .list {
@@ -705,8 +712,8 @@
 
     .header {
 
-        width: auto;
-        height: 22vh;
+        width: 100vw;
+        height: 15vh;
 
     }
 
@@ -736,7 +743,7 @@
     h3 {
         margin-top: 3%;
         margin-left: 4%;
-        font-size: 1.6vw;
+        font-size: 1.3vw;
         color: #964308;
         text-align: left;
         font-family: 'Livvic', sans-serif;
@@ -745,7 +752,7 @@
     h4 {
         margin-top: 2.5%;
         margin-left: 4%;
-        font-size: 3vh;
+        font-size: 1.3vw;
         color: #964308;
         text-align: center;
         font-family: 'Livvic', sans-serif;
@@ -760,8 +767,8 @@
     }
 
     .logo img {
-        margin-top: 2%;
-        width: 22vh;
+        width: 120px;
+        margin: 10px;
     }
 
     .Page01 {
@@ -805,7 +812,7 @@
     }
     
     .main-left {
-        width: 10%;
+        width: 30%;
         background-image: url('img/image-01.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -814,7 +821,7 @@
     }
 
     .main02-left {
-        width: 10%;
+        width: 30%;
         background-image: url('img/image-02.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -824,8 +831,7 @@
 
 
     .main03-left {
-
-        width: 10%;
+        width: 30%;
         background-image: url('img/image-03.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -835,8 +841,7 @@
     }
 
     .main04-left {
-
-        width: 10%;
+        width: 30%;
         background-image: url('img/image-04.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -846,8 +851,7 @@
     }
 
     .main05-left {
-
-        width: 10%;
+        width: 30%;
         background-image: url('img/image-05.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -857,8 +861,7 @@
     }
 
     .main06-left {
-
-        width: 10%;
+        width: 30%;
         background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -868,8 +871,7 @@
     }
 
     .main07-left {
-
-        width: 10%;
+        width: 30%;
         background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -879,7 +881,7 @@
     }
 
     .main-right {
-        width: 90%;
+        width: 70%;
         border-right: 1px solid black;
     }
 
