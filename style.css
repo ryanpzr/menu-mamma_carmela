@@ -663,7 +663,7 @@
     }
 
     .nav-center {
-        width: 28vw;
+        width: 25vw;
         text-align: center;
     }
 
@@ -812,7 +812,7 @@
     }
     
     .main-left {
-        width: 30%;
+        width: 30vw;
         background-image: url('img/image-01.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -821,7 +821,7 @@
     }
 
     .main02-left {
-        width: 30%;
+        width: 30vw;
         background-image: url('img/image-02.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -831,7 +831,7 @@
 
 
     .main03-left {
-        width: 30%;
+        width: 30vw;
         background-image: url('img/image-03.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -841,7 +841,7 @@
     }
 
     .main04-left {
-        width: 30%;
+        width: 30vw;
         background-image: url('img/image-04.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -851,7 +851,7 @@
     }
 
     .main05-left {
-        width: 30%;
+        width: 30vw;
         background-image: url('img/image-05.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -861,7 +861,7 @@
     }
 
     .main06-left {
-        width: 30%;
+        width: 30vw;
         background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -871,7 +871,7 @@
     }
 
     .main07-left {
-        width: 30%;
+        width: 30vw;
         background-image: url('img/image-07.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -881,7 +881,7 @@
     }
 
     .main-right {
-        width: 70%;
+        width: 70vw;
         border-right: 1px solid black;
     }
 
