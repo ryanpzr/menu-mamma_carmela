@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
 
 /* ========================
-   VARIÁVEIS
+   VARIAVEIS
    ======================== */
 :root {
   --laranja: #FF9100;
@@ -193,7 +193,7 @@ p {
 }
 
 /* ========================
-   LAYOUT — PÁGINAS
+   LAYOUT - PAGINAS
    ======================== */
 .page {
   height: auto;
