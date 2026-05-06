@@ -2,5 +2,5 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "npx http-server . -p $PORT"
+startCommand = "npm start"
 healthcheckPath = "/"
