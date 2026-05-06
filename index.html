@@ -2,458 +2,325 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamma Carmela</title>
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="js/app.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamma Carmela</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js/app.js"></script>
 </head>
 
-<body style="overflow-x: hidden;">
-    <header class="header">
-        <div class="nav-left">
+<body>
+  <header class="header">
+    <div class="nav-left">
+      <p>R. Fernandes Dias, 27 - Centro, São Francisco do Sul - SC, 892400-00</p>
+    </div>
 
-            <p>R. Fernandes Dias, 27 - <br> Centro, São Francisco do Sul - SC, 892400-00</p>
+    <div class="nav-center">
+      <a class="logo" href="index.html"><img class="img-logo-mamma" src="img/LogoMammaCarmela.png" alt="Logo Mamma Carmela"></a>
+    </div>
 
-        </div>
+    <div class="nav-right">
+      <button class="hamburger" aria-label="Abrir menu"></button>
+    </div>
 
-        <div class="nav-center">
-            <a class="logo" href="index.html"><img class="img-logo-mamma" src="img/LogoMammaCarmela.png"></a>
-        </div>
+    <ul class="list" id="list">
+      <button class="btn-nav"><img src="img/LogoMammaCarmela.png" alt="Logo Mamma Carmela"></button>
+      <li><button class="btn-nav" onclick="redirect('executivo')">Pratos Executivos</button></li>
+      <li><button class="btn-nav" onclick="redirect('executivoEspecial')">Pratos Executivos Especiais</button></li>
+      <li><button class="btn-nav" onclick="redirect('massas')">Massas &amp; Molhos</button></li>
+      <li><button class="btn-nav" onclick="redirect('executivoKids')">Executivo Kids</button></li>
+      <li><button class="btn-nav" onclick="redirect('salada')">Salada</button></li>
+      <li><button class="btn-nav" onclick="redirect('executivoDuasPessoas')">Prato para duas pessoas</button></li>
+      <li><button class="btn-nav" onclick="redirect('petiscos')">Petiscos</button></li>
+      <li><button class="btn-nav" onclick="redirect('sopas')">Sopas</button></li>
+      <li><button class="btn-nav" onclick="redirect('bebidas')">Bebidas</button></li>
+      <li><button class="btn-nav" onclick="redirect('vinhos')">Vinhos</button></li>
+    </ul>
+  </header>
 
-        <div class="nav-right">
-            <button onclick="display()" class="hamburger"></button>
-        </div>
+  <!-- PÁGINA 1: Executivos + Executivos Especiais (frutos do mar) -->
+  <main class="page">
+    <div class="col-imagem col-imagem--01"></div>
+    <div class="col-conteudo">
+      <h1 id="executivo">Pratos Executivos</h1>
+      <h4>Serve 1 Pessoa</h4>
 
-        <ul class="list" id="list">
-            <button class="a"><img src="img/LogoMammaCarmela.png"></button>
-            <li><button class="a" onclick="redirect('executivo')">Pratos Executivos</button></li>
-            <li><button class="a" onclick="redirect('executivoEspecial')">Pratos Executivos Especiais</button></li>
-            <li><button class="a" onclick="redirect('massas')">Massas & Molhos</button></li>
-            <li><button class="a" onclick="redirect('executivoKids')">Executivo Kids</button></li>
-            <li><button class="a" onclick="redirect('salada')">Salada</button></li>
-            <li><button class="a" onclick="redirect('executivoDuasPessoas')">Prato para duas pessoas</a></li>
-            <li><button class="a" onclick="redirect('petiscos')">Petiscos</button></li>
-            <li><button class="a" onclick="redirect('sopas')">Sopas</button></li>
-            <li><button class="a" onclick="redirect('bebidas')">Bebidas</button></li>
-            <li><button class="a" onclick="redirect('vinhos')">Vinhos</button></li>
+      <h3>BIFE GRELHADO / ACEBOLADO / À MILANESA<br><span class="preco">R$35,00</span></h3>
+      <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
 
-        </ul>
-    </header>
+      <h3>FRANGO GRELHADO / ACEBOLADO / À MILANESA<br><span class="preco">R$35,00</span></h3>
+      <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
 
-    <main class="Page01">
-        <div class="main-left"></div>
-        <div class="main-right">
-            <h1 id="executivo">Pratos Executivos</h1>
-            <H4>Serve 1 Pessoa</H4>
-            <h3>BIFE GRELHADO / ACEBOLADO / À MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$35,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
-            <h3>FRANGO GRELHADO / ACEBOLADO / À MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$35,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
-            <h3>PEIXE A MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$35,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
-            <h3>CARNE DE PANELA<br>
-                <h3 style="color: black; margin-top: 0%;">R$35,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
-            <h3>BISTECA SUINA GRELHADA / ACEBOLADA / Á MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$35,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
+      <h3>PEIXE A MILANESA<br><span class="preco">R$35,00</span></h3>
+      <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
 
-            <h3>OMELETE<br>
-                <h3 style="color: black; margin-top: 0%;">R$35,00</h3>
-            </h3>
-            <p id="executivoEspecial">ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
+      <h3>CARNE DE PANELA<br><span class="preco">R$35,00</span></h3>
+      <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
 
-            <h1>Executivos Especiais</h1>
-            <H4>Serve 1 Pessoa</H4>
-            <h2>FRUTOS DO MAR</h2>
-            <h3>CAMARÃO Á MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <p>ARROZ, PIRÃO, BATATA FRITA E SALADA</p>
-            <h3>CAMARÃO Á PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <p>ARROZ, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>CAMARÃO Á GREGA<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <p>ARROZ, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>CAMARÃO NA PAPAYA<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <p>CAMARÃO, MAMÃO PAPAYA, MIX DE SALADA VERDE <br> E ARROZ</p>
+      <h3>BISTECA SUINA GRELHADA / ACEBOLADA / Á MILANESA<br><span class="preco">R$35,00</span></h3>
+      <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
 
+      <h3>OMELETE<br><span class="preco">R$35,00</span></h3>
+      <p>ARROZ, FEIJÃO, BATATA FRITA E SALADA</p>
 
-        </div>
-        <div class="main-rightMaxResolution"></div>
-    </main>
+      <h1 id="executivoEspecial">Executivos Especiais</h1>
+      <h4>Serve 1 Pessoa</h4>
+      <h2>FRUTOS DO MAR</h2>
 
-    <main class="Page02">
-        <div class="main02-left"></div>
-        <div class="main-right">
-            <h3>CAMARÃO CROCANTE<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <p>QUEIJO, PALMITO, BATATA PALHA, ARROZ Á GREGA E SALADA</p>
-            <h3>RISOTO DE CAMARÃO<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <h3>SALMÃO GRELHADO<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>FILÉ DE PESCADA AO MOLHO DE CAMARÃO<br>
-                <h3 style="color: black; margin-top: 0%;">R$60,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>PEIXE A PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$75,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>PESCADA GRELHADA AO MOLHO DE <br> ALCAPARRAS<br>
-                <h3 style="color: black; margin-top: 0%;">R$60,00</h3>
-            </h3>
-            <p>RISOTO DE CHAMPIGNON E SALADA</p>
-            <h3>LINGUADO CROCANTE RECHEADO<br>
-                <h3 style="color: black; margin-top: 0%;">R$60,00</h3>
-            </h3>
-            <p>QUEIJO, PALMITO, ARROZ Á GREGA E SALADA</p>
+      <h3>CAMARÃO Á MILANESA<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, PIRÃO, BATATA FRITA E SALADA</p>
 
-            <p></p>
+      <h3>CAMARÃO Á PARMEGIANA<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, PIRÃO, BATATA FRITA E SALADA</p>
 
+      <h3>CAMARÃO Á GREGA<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, PIRÃO, BATATA FRITA E SALADA</p>
 
-            <h2>CARNES</h2>
-            <h3>PICANHA GRELHADA<br>
-                <h3 style="color: black; margin-top: 0%;">R$60,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3 id="massas">FILÉ MIGNON MOLHO MADEIRA<br>
-                <h3 style="color: black; margin-top: 0%;">R$60,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3>BIFE PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$60,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3>FRANGO A PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$50,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
+      <h3>CAMARÃO NA PAPAYA<br><span class="preco">R$75,00</span></h3>
+      <p>CAMARÃO, MAMÃO PAPAYA, MIX DE SALADA VERDE E ARROZ</p>
+    </div>
+  </main>
 
+  <!-- PÁGINA 2: Executivos Especiais (continuação) + Massas -->
+  <main class="page">
+    <div class="col-imagem col-imagem--02"></div>
+    <div class="col-conteudo">
+      <h3>CAMARÃO CROCANTE<br><span class="preco">R$75,00</span></h3>
+      <p>QUEIJO, PALMITO, BATATA PALHA, ARROZ Á GREGA E SALADA</p>
 
-            <h1>Massas</h1>
-            <h3>LASANHA CARNE / FRANGO<br>
-                <h3 style="color: black; margin-top: 0%;">R$30,00</h3>
-            </h3>
-            <h3>PANQUECA BOLONHESA / QUEIJO E PRESUNTO<br>
-                <h3 style="color: black; margin-top: 0%;">R$30,00</h3>
-            </h3>
-            <h3>CAMARÃO<br>
-                <h3 style="color: black; margin-top: 0%;">R$30,00</h3>
-            </h3>
+      <h3>RISOTO DE CAMARÃO<br><span class="preco">R$75,00</span></h3>
 
-            <h3>TALHARIM <span style="color: black;">//</span> RAVIOLI
-                <span style="color: black;">//</span>
-                SPAGHETTI
-            </h3>
+      <h3>SALMÃO GRELHADO<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
 
-        </div>
-        <div class="main02-rightMaxResolution"></div>
+      <h3>FILÉ DE PESCADA AO MOLHO DE CAMARÃO<br><span class="preco">R$80,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
 
-    </main>
+      <h3>PEIXE A PARMEGIANA<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
 
-    <main class="Page03">
-        <div class="main03-left"></div>
-        <div class="main-right">
+      <h3>PESCADA GRELHADA AO MOLHO DE ALCAPARRAS<br><span class="preco">R$75,00</span></h3>
+      <p>RISOTO DE CHAMPIGNON E SALADA</p>
 
+      <h3>LINGUADO CROCANTE RECHEADO<br><span class="preco">R$80,00</span></h3>
+      <p>QUEIJO, PALMITO, ARROZ Á GREGA E SALADA</p>
 
-            <h3>NHOQUE <span style="color: black;">//</span> PENNE <span style="color: black;">//</span> CAPELETTI</h3>
-            <h3 style="color: black;">R$30,00</h3>
+      <h2>CARNES</h2>
 
+      <h3>PICANHA GRELHADA<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
 
-            <h1>Molhos</h1>
-            <h4>ALHO E ÓLEO <span style="color: black;">//</span> AO SUGO <span style="color: black;">//</span> NA
-                MANTEIGA
-            </h4>
-            <h4> MOLHO BRANCO <span style="color: black;">//</span> BOLONHESA </h4>
+      <h3>FILÉ MIGNON MOLHO MADEIRA<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
 
-            <h2>ADICIONAIS</h2>
-            <h3>CAMARÃO<br>
-                <h3 style="color: black; margin-top: 0%;">R$30,00</h3>
-            </h3>
-            <h3 id="executivoKids">CALABRESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <h3>FRANGO<br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <h3>OVO<br>
-                <h3 style="color: black; margin-top: 0%;">R$5,00</h3>
-            </h3>
-            <h3>ARROZ<br>
-                <h3 style="color: black; margin-top: 0%;">R$5,00</h3>
-            </h3>
-            <h3>FEIJÃO<br>
-                <h3 style="color: black; margin-top: 0%;">R$5,00</h3>
-            </h3>
-            <h3>BIFE<br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <h3>BATATA<br>
-                <h3 style="color: black; margin-top: 0%;">R$15,00</h3>
-            </h3>
-            <h3>PEIXE<br>
-                <h3 style="color: black; margin-top: 0%;">R$15,00</h3>
-            </h3>
-            <h3>PICANHA<br>
-                <h3 style="color: black; margin-top: 0%;">R$40,00</h3>
-            </h3>
-            <h3>PIRÃO<br>
-                <h3 style="color: black; margin-top: 0%;">R$8,00</h3>
-            </h3>
-            <h3>ALCAPARRAS<br>
-                <h3 style="color: black; margin-top: 0%;">R$10,00</h3>
-            </h3>
-            <h3>SALADA<br>
-                <h3 style="color: black; margin-top: 0%;">R$5,00</h3>
-            </h3>
-            <h3>PÃO<br>
-                <h3 style="color: black; margin-top: 0%;">R$2,00</h3>
-            </h3>
-            <h3>TIRAS DE CARNE<br> <span style="color: black; ">R$15,00</span></h3>
+      <h3>BIFE PARMEGIANA<br><span class="preco">R$80,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
 
-            <h1>Executivo Kids</h1>
-            <h3>BIFE GRELHADO / ACEBOLADO / À MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <p style="margin-top: 0%;">ARROZ, FEIJÃO E BATATA FRITA</p>
-            <h3 id="salada">FRANGO GRELHADO / ACEBOLADO / À MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO E BATATA FRITA</p>
-            <h3>CARNE DE PANELA <br> AO MOLHO MADEIRA <br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO E BATATA FRITA</p>
+      <h3>FRANGO A PARMEGIANA<br><span class="preco">R$75,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
 
-            <h3>PEIXE Á MILANESA <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO E BATATA FRITA</p>
+      <h1 id="massas">Massas</h1>
 
-            <h1>Saladas</h1>
-            <h3>MIX DE FOLHAS VERDES<br>
-                <h3 style="color: black; margin-top: 0%;">R$40,00</h3>
-            </h3>
-            <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, <br> PRESUNTO E <b>FRANGO</b> </p>
-            <h3 id="executivoDuasPessoas">MIX DE FOLHAS VERDES<br>
-                <h3 style="color: black; margin-top: 0%;">R$50,00</h3>
-            </h3>
-            <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, <br> PRESUNTO E <b>CAMARÃO</b> </p>
-            <h3>MIX DE FOLHAS VERDES<br>
-                <h3 style="color: black; margin-top: 0%;">R$50,00</h3>
-            </h3>
-            <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, <br> PRESUNTO E <b>TIRAS DE SALMÃO</b> </p>
-            <h3>MIX DE FOLHAS VERDES<br>
-                <h3 style="color: black; margin-top: 0%;">R$40,00</h3>
-            </h3>
-            <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, <br> PRESUNTO E <b>TIRAS DE ALCATRA</b> </p>
+      <h3>LASANHA CARNE / FRANGO<br><span class="preco">R$30,00</span></h3>
 
+      <h3>PANQUECA BOLONHESA / QUEIJO E PRESUNTO<br><span class="preco">R$30,00</span></h3>
 
-        </div>
-        <div class="main03-rightMaxResolution"></div>
+      <h3>CAMARÃO<br><span class="preco">R$30,00</span></h3>
 
-    </main>
+      <h3>TALHARIM <span class="sep">//</span> RAVIOLI <span class="sep">//</span> SPAGHETTI</h3>
+    </div>
+  </main>
 
-    <main class="Page04">
-        <div class="main04-left"></div>
-        <div class="main-right">
+  <!-- PÁGINA 3: Molhos, Adicionais, Executivo Kids, Saladas -->
+  <main class="page">
+    <div class="col-imagem col-imagem--03"></div>
+    <div class="col-conteudo">
+      <h3>NHOQUE <span class="sep">//</span> PENNE <span class="sep">//</span> CAPELETTI</h3>
+      <h3 class="preco">R$30,00</h3>
 
+      <h1>Molhos</h1>
+      <h4>ALHO E ÓLEO <span class="sep">//</span> AO SUGO <span class="sep">//</span> NA MANTEIGA</h4>
+      <h4>MOLHO BRANCO <span class="sep">//</span> BOLONHESA</h4>
 
-            <h1>À la carte</h1>
-            <H4>Serve 2 Pessoas</H4>
-            <h2>CARNES</h2>
+      <h2>ADICIONAIS</h2>
 
-            <h3>PICANHA GRELHADA<br>
-                <h3 style="color: black; margin-top: 0%;">R$140,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3>FILÉ MIGNON MOLHO MADEIRA<br>
-                <h3 style="color: black; margin-top: 0%;">R$140,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3>BIFE PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$140,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3>FRANGO A PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$140,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3>STROGONOFF DE MIGNON<br>
-                <h3 style="color: black; margin-top: 0%;">R$140,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
-            <h3>STROGONOFF DE FRANGO<br>
-                <h3 style="color: black; margin-top: 0%;">R$100,00</h3>
-            </h3>
-            <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA <br> E SALADA</p>
+      <h3>CAMARÃO<br><span class="preco">R$30,00</span></h3>
 
-            <h2>FRUTOS DO MAR</h2>
-            <h3>CAMARÃO Á MILANESA <br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>CAMARÃO Á PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>CAMARÃO Á GREGA<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>CAMARÃO CROCANTE<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>ARROZ Á GREGA, BATATA PALHA, CAMARÃO E <br> QUEIJO PARMESÃO</p>
+      <h3>CALABRESA<br><span class="preco">R$20,00</span></h3>
 
+      <h3>FRANGO<br><span class="preco">R$20,00</span></h3>
 
-        </div>
-        <div class="main04-rightMaxResolution"></div>
+      <h3>OVO<br><span class="preco">R$5,00</span></h3>
 
-    </main>
+      <h3>ARROZ<br><span class="preco">R$5,00</span></h3>
 
-    <main class="Page05">
-        <div class="main05-left"></div>
-        <div class="main-right">
-            <h3>PESCADA GRELHADA AO MOLHO DE ALCAPARRAS<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>RISOTO DE CHAMPIGNON E SALADA</p>
-            <h3>PESCADA À MILANESA AO MOLHO DE CAMARÂO<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3>LINGUADO CROCANTE RECHEADO<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>LINGUADO RECHEADO COM PALMITO E QUEIJO, <br> ARROZ Á GREGA E SALADA</p>
-            <h3>PEIXE À PARMEGIANA<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
-            <h3 id="petiscos">SALMÃO GRELHADO AO MOLHO DE ALCAPARRA<br>
-                <h3 style="color: black; margin-top: 0%;">R$150,00</h3>
-            </h3>
-            <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA <br> E SALADA</p>
+      <h3>FEIJÃO<br><span class="preco">R$5,00</span></h3>
 
+      <h3>BIFE<br><span class="preco">R$20,00</span></h3>
 
-            <h1>Petiscos</h1>
-            <h3>CAMARÃO BRANCO </h3>
-            <h3 style="color: black; margin-top: 0%;">R$90,00</h3>
-            <h3>ISCAS DE PEIXE<br>
-                <h3 style="color: black; margin-top: 0%;">R$40,00</h3>
-            </h3>
-            <h3>ISCAS DE FRANGO À MILANESA<br>
-                <h3 style="color: black; margin-top: 0%;">R$40,00</h3>
-            </h3>
-            <h3>BATATA FRITA <br>
-                <h3 style="color: black; margin-top: 0%;">R$25,00</h3>
-            </h3>
-            <h3>POLENTA FRITA<br>
-                <h3 style="color: black; margin-top: 0%;">R$25,00</h3>
-            </h3>
-            <h3>TIRAS DE CARNE ACEBOLADA<br>
-                <h3 style="color: black; margin-top: 0%;">R$50,00</h3>
-            </h3>
+      <h3>BATATA<br><span class="preco">R$15,00</span></h3>
 
-            <h1>Sopas</h1>
-            <h4>LEGUMES <span style="color: black;">//</span> CANJA <span style="color: black;">//</span> DOBRADINHA
-                <span style="color: black;">//</span>
-                MILHO
-            </h4>
-            <h4>CALDO VERDE <span style="color: black;">//</span> FEIJÃO <span style="color: black;">
-            </h4>
-            <h4 id="bebidas" style="color: black;">R$30,00</h4>
+      <h3>PEIXE<br><span class="preco">R$15,00</span></h3>
 
-            <h1>Bebidas</h1>
+      <h3>PICANHA<br><span class="preco">R$40,00</span></h3>
 
-            <h3>REFRIGERANTE - LATA<br>
-                <h3 style="color: black; margin-top: 0%;">R$8,00</h3>
-            </h3>
-            <h3>REFRIGERANTE - 600ML<br>
-                <h3 style="color: black; margin-top: 0%;">R$12,00</h3>
-            </h3>
-            <h3>REFRIGERANTE - 1.5L<br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
+      <h3>PIRÃO<br><span class="preco">R$8,00</span></h3>
 
-        </div>
-        <div class="main05-rightMaxResolution"></div>
+      <h3>ALCAPARRAS<br><span class="preco">R$10,00</span></h3>
 
-    </main>
+      <h3>SALADA<br><span class="preco">R$5,00</span></h3>
 
-    <main class="Page06">
-        <div class="main06-left"></div>
-        <div class="main-right">
-            <h3>ÁGUA SEM GÁS / COM GÁS<br>
-                <h3 style="color: black; margin-top: 0%;">R$6,00</h3>
-            </h3>
+      <h3>PÃO<br><span class="preco">R$2,00</span></h3>
 
-            <h3>CERVEJA - LATA<br>
-                <h3 style="color: black; margin-top: 0%;">R$10,00</h3>
-            </h3>
-            <h3>CERVEJA - LONG NECK<br>
-                <h3 style="color: black; margin-top: 0%;">R$12,00</h3>
-            </h3>
-            <h3>CERVEJA - 600ML<br>
-                <h3 style="color: black; margin-top: 0%;">R$18,00</h3>
-            </h3>
-            <h3>HEINEKEN - 600ML<br>
-                <h3 style="color: black; margin-top: 0%;">R$20,00</h3>
-            </h3>
-            <h3>CAPIRINHA - LIMÃO<br>
-                <h3 style="color: black; margin-top: 0%;"></h3>
-            </h3>
-            <h3>SUCO - LARANJA E LIMÃO<br>
-                <h3 style="color: black; margin-top: 0%;"></h3>
-            </h3>
-            <h3>POLPA - ABACAXI, ABACAXI
-                C/HORTELÃ, ACEROLA, FRUTAS VERMELHAS, LARANJA, LIMÃO, MANGA,
-                UVA, MORANGO E MARACUJÁ<br>
-                <h3 style="color: black; margin-top: 0%;">R$12,00</h3>
-            </h3>
+      <h3>TIRAS DE CARNE<br><span class="preco">R$15,00</span></h3>
 
-            <h1 id="Vinhos">Vinhos</h1>
-            <h4 style="color: black;">Preços e Carta de Vinhos a consultar...</h4>
+      <h1 id="executivoKids">Executivo Kids</h1>
 
-            <h1 id="Vinhos">Sobremesas</h1>
-            <h4 style="color: black;">Preços e Opções a consultar...</h4>
+      <h3>BIFE GRELHADO / ACEBOLADO / À MILANESA<br><span class="preco">R$20,00</span></h3>
+      <p>ARROZ, FEIJÃO E BATATA FRITA</p>
 
-            <br><br><br><br><br><br><br><br>
-        </div>
-        <div class="main06-rightMaxResolution"></div>
+      <h3>FRANGO GRELHADO / ACEBOLADO / À MILANESA<br><span class="preco">R$20,00</span></h3>
+      <p>ARROZ, FEIJÃO E BATATA FRITA</p>
 
-    </main>
+      <h3>CARNE DE PANELA AO MOLHO MADEIRA<br><span class="preco">R$20,00</span></h3>
+      <p>ARROZ, FEIJÃO E BATATA FRITA</p>
 
-    <main class="Page07">
-        <div class="main07-left"></div>
-        <div class="main-right">
+      <h3>PEIXE Á MILANESA<br><span class="preco">R$20,00</span></h3>
+      <p>ARROZ, FEIJÃO E BATATA FRITA</p>
 
+      <h1 id="salada">Saladas</h1>
 
+      <h3>MIX DE FOLHAS VERDES<br><span class="preco">R$40,00</span></h3>
+      <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, PRESUNTO E <b>FRANGO</b></p>
 
-        </div>
-        <div class="main07-rightMaxResolution"></div>
+      <h3>MIX DE FOLHAS VERDES<br><span class="preco">R$50,00</span></h3>
+      <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, PRESUNTO E <b>CAMARÃO</b></p>
 
-    </main>
+      <h3>MIX DE FOLHAS VERDES<br><span class="preco">R$50,00</span></h3>
+      <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, PRESUNTO E <b>TIRAS DE SALMÃO</b></p>
+
+      <h3 id="executivoDuasPessoas">MIX DE FOLHAS VERDES<br><span class="preco">R$40,00</span></h3>
+      <p>TORRADINHAS, CENOURA, TOMATE, QUEIJO, PRESUNTO E <b>TIRAS DE ALCATRA</b></p>
+    </div>
+  </main>
+
+  <!-- PÁGINA 4: À la carte (Carnes + Frutos do mar início) -->
+  <main class="page">
+    <div class="col-imagem col-imagem--04"></div>
+    <div class="col-conteudo">
+      <h1>À la carte</h1>
+      <h4>Serve 2 Pessoas</h4>
+      <h2>CARNES</h2>
+
+      <h3>PICANHA GRELHADA<br><span class="preco">R$150,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
+
+      <h3>FILÉ MIGNON MOLHO MADEIRA<br><span class="preco">R$150,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
+
+      <h3>BIFE PARMEGIANA<br><span class="preco">R$160,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
+
+      <h3>FRANGO A PARMEGIANA<br><span class="preco">R$150,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
+
+      <h3>STROGONOFF DE MIGNON<br><span class="preco">R$140,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
+
+      <h3>STROGONOFF DE FRANGO<br><span class="preco">R$100,00</span></h3>
+      <p>ARROZ, FEIJÃO, FAROFA, BATATA FRITA E SALADA</p>
+
+      <h2>FRUTOS DO MAR</h2>
+
+      <h3>CAMARÃO Á MILANESA<br><span class="preco">R$160,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
+
+      <h3>CAMARÃO Á PARMEGIANA<br><span class="preco">R$160,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
+
+      <h3>CAMARÃO Á GREGA<br><span class="preco">R$160,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
+
+      <h3>CAMARÃO CROCANTE<br><span class="preco">R$160,00</span></h3>
+      <p>ARROZ Á GREGA, BATATA PALHA, CAMARÃO E QUEIJO PARMESÃO</p>
+    </div>
+  </main>
+
+  <!-- PÁGINA 5: À la carte (Frutos do mar cont.) + Petiscos + Sopas + Bebidas -->
+  <main class="page">
+    <div class="col-imagem col-imagem--05"></div>
+    <div class="col-conteudo">
+      <h3>PESCADA GRELHADA AO MOLHO DE ALCAPARRAS<br><span class="preco">R$150,00</span></h3>
+      <p>RISOTO DE CHAMPIGNON E SALADA</p>
+
+      <h3>PESCADA À MILANESA AO MOLHO DE CAMARÃO<br><span class="preco">R$160,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
+
+      <h3>LINGUADO CROCANTE RECHEADO<br><span class="preco">R$160,00</span></h3>
+      <p>LINGUADO RECHEADO COM PALMITO E QUEIJO, ARROZ Á GREGA E SALADA</p>
+
+      <h3>PEIXE À PARMEGIANA<br><span class="preco">R$160,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
+
+      <h3>SALMÃO GRELHADO AO MOLHO DE ALCAPARRA<br><span class="preco">R$150,00</span></h3>
+      <p>ARROZ, FAROFA, PIRÃO, BATATA FRITA E SALADA</p>
+
+      <h1 id="petiscos">Petiscos</h1>
+
+      <h3>CAMARÃO BRANCO<br><span class="preco">R$120,00</span></h3>
+
+      <h3>ISCAS DE PEIXE<br><span class="preco">R$30,00</span></h3>
+
+      <h3>ISCAS DE FRANGO À MILANESA<br><span class="preco">R$40,00</span></h3>
+
+      <h3>BATATA FRITA<br><span class="preco">R$25,00</span></h3>
+
+      <h3>POLENTA FRITA<br><span class="preco">R$25,00</span></h3>
+
+      <h3>TIRAS DE CARNE ACEBOLADA<br><span class="preco">R$50,00</span></h3>
+
+      <h1 id="sopas">Sopas</h1>
+      <h4>LEGUMES <span class="sep">//</span> CANJA <span class="sep">//</span> DOBRADINHA <span class="sep">//</span> MILHO</h4>
+      <h4>CALDO VERDE <span class="sep">//</span> FEIJÃO</h4>
+      <h4 id="bebidas" class="preco">R$30,00</h4>
+
+      <h1>Bebidas</h1>
+
+      <h3>REFRIGERANTE - LATA<br><span class="preco">R$8,00</span></h3>
+
+      <h3>REFRIGERANTE - 600ML<br><span class="preco">R$12,00</span></h3>
+
+      <h3>REFRIGERANTE - 1.5L<br><span class="preco">R$20,00</span></h3>
+    </div>
+  </main>
+
+  <!-- PÁGINA 6: Bebidas (cont.) + Vinhos + Sobremesas -->
+  <main class="page">
+    <div class="col-imagem col-imagem--06"></div>
+    <div class="col-conteudo">
+      <h3>ÁGUA SEM GÁS / COM GÁS<br><span class="preco">R$6,00</span></h3>
+
+      <h3>CERVEJA - LATA<br><span class="preco">R$10,00</span></h3>
+
+      <h3>CERVEJA - LONG NECK<br><span class="preco">R$12,00</span></h3>
+
+      <h3>CERVEJA - 600ML<br><span class="preco">R$18,00</span></h3>
+
+      <h3>HEINEKEN - 600ML<br><span class="preco">R$20,00</span></h3>
+
+      <h3>CAIPIRINHA - LIMÃO</h3>
+
+      <h3>SUCO - LARANJA E LIMÃO</h3>
+
+      <h3>POLPA - ABACAXI, ABACAXI C/HORTELÃ, ACEROLA, FRUTAS VERMELHAS, LARANJA, LIMÃO, MANGA, UVA, MORANGO E MARACUJÁ<br><span class="preco">R$12,00</span></h3>
+
+      <h1 id="vinhos">Vinhos</h1>
+      <h4 class="texto-preto">Preços e Carta de Vinhos a consultar...</h4>
+
+      <h1 id="sobremesas">Sobremesas</h1>
+      <h4 class="texto-preto">Preços e Opções a consultar...</h4>
+    </div>
+  </main>
 
 </body>
 
